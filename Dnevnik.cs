@@ -55,5 +55,10 @@ namespace Convert
         {
 
         }
+
+        public void mergeFIO(String surname, String name, String nname)
+        {
+            this.fio = surname + " " + name + " " + nname;
+        }
     }
 }
