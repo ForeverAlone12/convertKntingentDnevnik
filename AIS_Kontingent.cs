@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Convert
 {
+    /// <summary>
+    /// Данные из АИС Контингент
+    /// </summary>
     class AIS_Kontingent
     {
         /// <summary>
@@ -67,5 +70,10 @@ namespace Convert
         /// Адрес регистрации
         /// </summary>
         String address { get; set; }
+
+        public AIS_Kontingent()
+        {
+
+        }
     }
 }
